@@ -38,7 +38,7 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 ![Windows RDP/SMB Auth Failures](https://github.com/EdgarAcuna8/Azure-SOC/assets/146898815/6b5007eb-93fd-49dd-9f45-2007405a212e)<br>
 
 
-```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
+```All map queries returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
 
 ## Metrics Before & After Hardening / Security Controls
 
