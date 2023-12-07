@@ -43,10 +43,8 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 ## Metrics Before & After Hardening / Security Controls
 
 <p align="center" width="100%">
-    <img width="33%" src="(https://github.com/EdgarAcuna8/Azure-SOC/assets/146898815/26fe84a0-8377-44cc-a0bf-89546b03f220">
+    <img src="https://github.com/EdgarAcuna8/Azure-SOC/assets/146898815/26fe84a0-8377-44cc-a0bf-89546b03f220">
 </p>
-
-![Screenshot 2023-12-07 172110](https://github.com/EdgarAcuna8/Azure-SOC/assets/146898815/26fe84a0-8377-44cc-a0bf-89546b03f220)
 
 ## Conclusion
 
