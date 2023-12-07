@@ -37,37 +37,16 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 ![Linux Syslog Auth Failures](https://github.com/EdgarAcuna8/Azure-SOC/assets/146898815/55c81231-468e-43a9-b48c-1abb5eb233e5)<br>
 ![Windows RDP/SMB Auth Failures](https://github.com/EdgarAcuna8/Azure-SOC/assets/146898815/6b5007eb-93fd-49dd-9f45-2007405a212e)<br>
 
-## Metrics Before Hardening / Security Controls
-
-The following table shows the metrics we measured in our insecure environment for 24 hours:
-Start Time 2023-03-15 17:04:29
-Stop Time 2023-03-16 17:04:29
-
-| Metric                   | Count
-| ------------------------ | -----
-| SecurityEvent            | 19470
-| Syslog                   | 3028
-| SecurityAlert            | 10
-| SecurityIncident         | 348
-| AzureNetworkAnalytics_CL | 843
-
-## Attack Maps Before Hardening / Security Controls
 
 ```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
 
-## Metrics After Hardening / Security Controls
+## Metrics Before & After Hardening / Security Controls
 
-The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
-Start Time 2023-03-18 15:37
-Stop Time	2023-03-19 15:37
+<p align="center" width="100%">
+    <img width="33%" src="(https://github.com/EdgarAcuna8/Azure-SOC/assets/146898815/26fe84a0-8377-44cc-a0bf-89546b03f220">
+</p>
 
-| Metric                   | Count
-| ------------------------ | -----
-| SecurityEvent            | 8778
-| Syslog                   | 25
-| SecurityAlert            | 0
-| SecurityIncident         | 0
-| AzureNetworkAnalytics_CL | 0
+![Screenshot 2023-12-07 172110](https://github.com/EdgarAcuna8/Azure-SOC/assets/146898815/26fe84a0-8377-44cc-a0bf-89546b03f220)
 
 ## Conclusion
 
