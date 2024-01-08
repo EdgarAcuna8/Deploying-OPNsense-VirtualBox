@@ -22,3 +22,8 @@ VM Setup:
 1. OPNsense Firewall with 2 network adapters - NAT and internal network (serving as LAN)
 2. Kali Linux Client with 2 network adapters as above, since I used this machine for initial setup
 3. Windows 10 Client with internal network adapter
+
+Next, I enabled and configured the Intrusion Prevention System(IPS) functionality. I created a custom Suricata rule to detect and alert when an Nmap scan is performed. From the Kali VM I ran Nmap, and as expected, I received alerts about Nmap scanning our network. 
+<p align="center" width="100%">
+    <img src="https://github.com/EdgarAcuna8/Deploying-OPNsense-VirtualBox/assets/146898815/8ec960b5-3deb-47c3-9e6e-5d20996c18ca">
+</p>
